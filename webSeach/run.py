@@ -17,7 +17,7 @@ async def main() -> List[PageResult]:
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=False)
-
+        
         # 加载已保存的状态
         state = await state_manager.load_merged_state(["bing", "duckduckgo", "baidu"])
         context = await browser.new_context(
@@ -39,7 +39,7 @@ async def main() -> List[PageResult]:
         )
         print(f"[Search] got {len(results)} urls")
         
-        #time.sleep(300)  # 等待浏览器稳定下来
+        time.sleep(300)  # 等待浏览器稳定下来
         # ========= ② 抓取阶段 =========
         sem = asyncio.Semaphore(8)
 

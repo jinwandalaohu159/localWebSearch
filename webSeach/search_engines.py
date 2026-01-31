@@ -36,6 +36,14 @@ def default_clean_title(s: str) -> str:
 async def baidu_post_goto(page, query: str, eng: Engine) -> None:
     await human_sleep(eng.extra_wait_ms, 500)
 
+async def bing_post_goto(page, query: str, eng: Engine) -> None:
+    """模拟人类浏览后的额外操作"""
+    await human_sleep(eng.extra_wait_ms, 500)
+    try:
+        await page.evaluate("window.scrollBy(0, 100)")
+        await human_sleep(300, 200)
+    except:
+        pass
 
 ENGINES: List[Engine] = [
     Engine(
@@ -43,14 +51,16 @@ ENGINES: List[Engine] = [
         build_url=lambda q: f"https://www.bing.com/search?q={quote(q)}",
         result_selector="li.b_algo h2 a",
         clean_title=default_clean_title,
-        wait_ms_after_nav=1000,
+        wait_ms_after_nav=2202,
+        extra_wait_ms=800,
+        post_goto=bing_post_goto,
     ),
     Engine(
         name="duckduckgo",
         build_url=lambda q: f"https://duckduckgo.com/?q={quote(q)}&ia=web",
         result_selector="a[data-testid='result-title-a']",
         clean_title=default_clean_title,
-        wait_ms_after_nav=1200,
+        wait_ms_after_nav=1344,
     ),
     Engine(
         name="baidu",
@@ -75,9 +85,9 @@ async def extract_results(page, selector: str, top_k: int) -> List[Tuple[str, st
         a = loc.nth(i)
         try:
 
-            await human_sleep(120, 200)
-            title = await a.text_content(timeout=1500)
-            href = await a.get_attribute("href", timeout=1500)
+            await human_sleep(320, 120)
+            title = await a.text_content(timeout=3000)
+            href = await a.get_attribute("href", timeout=3000)
 
             if not title or not href:
                 continue
@@ -90,7 +100,6 @@ async def extract_results(page, selector: str, top_k: int) -> List[Tuple[str, st
 
     return results
 
-
 async def fetch_engine(
     context,
     sem,
@@ -100,12 +109,13 @@ async def fetch_engine(
     state_manager: StateCacheManager = None,
 ):
     async with sem:
-        await human_sleep(600, 600)
+        await human_sleep(800, 400)
 
         page = await context.new_page()
 
         try:
             _log(f"[{eng.name}] 正在访问: {eng.build_url(query)}")
+            await human_sleep(180, 60)
             await page.goto(eng.build_url(query), wait_until="domcontentloaded")
 
             # 获取页面信息用于诊断
