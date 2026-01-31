@@ -1,0 +1,279 @@
+{
+  "cookies": [
+    {
+      "name": ".MSA.Auth.Nonce.CfDJ8HAK7eZCYw5BifHFeUHnkJGi6tzdWj5YFI_QWvAVkdS0CZo1IdTRxgNDuJIoNje7Tc9ij8aLYBWSA1lk_vf0z1lVwkHbQIt7v2mEYbkEKkfegSSXT_ZiJxbroDde2Vet3m_rZc4gHZacvKA8ozHSAgBNnmJltz9x0nbsKmc5Y-jjol0U1O2cD0aX2N1BRcq90EW5Ypw0bumDtwEtVRYU3feTHt2blvDVNQPkLRwIRX1dADSNNeyKCCXkLwj1CWt3G7U0iCwdzjslFo2YsQFJr8A",
+      "value": "N",
+      "domain": "www.bing.com",
+      "path": "/identity/idtokenv2",
+      "expires": 1769840340.576085,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": ".MSA.Auth.Correlation.I41-gqMQRhJ-k3hBaYpLBGZMh8HII1gTNzEtHRU69kA",
+      "value": "N",
+      "domain": "www.bing.com",
+      "path": "/identity/idtokenv2",
+      "expires": 1769840340.576153,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": ".MSA.Auth.Nonce.CfDJ8HAK7eZCYw5BifHFeUHnkJFOf41PUJMLzvzql9w84qm-7UJYvgDCPGo_FJOepE1I65rMlqLWE8PS8NvpHdwKJVVhdWymJZNmK3KoCdnvW8C47sE_yTM70KI32voP0HEkiL97x4lJlkEraMuhNk-lCLCSzSZk7_SJ7_jTQj8htGB3wFtRix8AG0yC_DwcmjmigQLoCD4UvQd86vOSqET-PAcf_UPe27-PZ4TyOpxseSHDi6Krq2koHoxh8bijSv8FLH9ERmerKP5f6ciChkdBIRw",
+      "value": "N",
+      "domain": "www.bing.com",
+      "path": "/identity/idtokenv2",
+      "expires": 1769840345.104968,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": ".MSA.Auth.Nonce.CfDJ8HAK7eZCYw5BifHFeUHnkJE4qiWBCr7S3dQ0k2Vg_a0jOX_ekC5iM9VeVxK2NFOnNfuS3x4nHGIhhA2e6FsNoeG7TPTDiIcUxu2Izt59i9JgQ4d7EZ0UIazGLrupmeqTGOSULWaU_0HareeNzM7o_cQFWTEpsGXDX7UnXqIZsqYwVGzu6inzxSWThumb1IJinQDH815FejhM8yyMiorGnPNzMpMIyouZzHOMtDkKmD_3Ea4DB6EF_lltmpnoR3v2Xk2XCyr4tZyBevShGXe5HNI",
+      "value": "N",
+      "domain": "www.bing.com",
+      "path": "/identity/idtokenv2",
+      "expires": 1769840381.295662,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": ".MSA.Auth.Nonce.CfDJ8HAK7eZCYw5BifHFeUHnkJHMUq6OYK_WbqmMS1ovgeQVAIrFYqnFg-2X6W25RJm5SMODNJQPawJ6aM8BkvOI75_MkHNi5SRm2CUeYBFRuaE-PvlHhr7rz1KUUwMQxnMlCaU87LcapbXqGLwL3QkT2l9YSuRuQIbEbK2slrb9pGBlz0FKQV7OFRYBjF5NlNIpTQntvQvkr6Z1FZJBSbeKMwLPqThiXHOBo5Ea3PP_pgmHDJBenZCqaQO3M14zQuCerJbGLZaDXAUA0RqXppykmYE",
+      "value": "N",
+      "domain": "www.bing.com",
+      "path": "/identity/idtokenv2",
+      "expires": 1769840686.532477,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": ".MSA.Auth.Nonce.CfDJ8HAK7eZCYw5BifHFeUHnkJHD8jqB_7YtxHoiyWjyDkyKP8N7MBaPrjYWICsyy1DGopbnOcR-8eCS-PGTc8JOMtwuWP8wPF9-G_wpluF9eCe36xjPP2ZPZEjz0_kli0JTESIrH30CVFdP820D3CbHwcYkj--UNcKt0PC5SRIpK1ENmmDWRla2yV4gfbVOBT5qRdO-afE9D33LWzQE9CZJao30dDrdygvsx2l2AmCUNcup5X-AJ8GazqMLho4QSewCrTHYYaNC2UXgAGlh3dObSAo",
+      "value": "N",
+      "domain": "www.bing.com",
+      "path": "/identity/idtokenv2",
+      "expires": 1769840771.263687,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": ".MSA.Auth.Correlation.e0Bp7HHWB1cGbM5M2Qu6dLbzFmGUJIM1rJaTcM5udgI",
+      "value": "N",
+      "domain": "www.bing.com",
+      "path": "/identity/idtokenv2",
+      "expires": 1769840771.263719,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_C_Auth",
+      "value": "",
+      "domain": "www.bing.com",
+      "path": "/rewardsapp",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "MUID",
+      "value": "31649E0B86CC6E9C364088F987DE6F7D",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1803535454.138353,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MUIDB",
+      "value": "31649E0B86CC6E9C364088F987DE6F7D",
+      "domain": "www.bing.com",
+      "path": "/",
+      "expires": 1803535871.263735,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_EDGE_S",
+      "value": "F=1&SID=229512893F666E251DF0047B3E746F6F",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_EDGE_V",
+      "value": "1",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1803535435.946433,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SRCHD",
+      "value": "AF=NOFORM",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1804399435.946476,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SRCHUID",
+      "value": "V=2&GUID=87D07CEFDC924EF1BD5A0A6243CE3F0C&dmnchg=1",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1804399435.946494,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ak_bmsc",
+      "value": "5087C44EE4FCBE44BFBD88279AA953A0~000000000000000000000000000000~YAAQGw7SFxIm8OWbAQAAgJ6mEh4ksLkBPcOR/NDjOtTI6t5jkvJObh9f2IL7UX5sRzUyBFAAG2mZ52gsRfPLO8twkMNdZGMtTzt+GnRua3tQpZ9Lt9Foqu84o/b5TdyYnZHpw8i+pObTsZ0GDfUrSn8/tKMmEBxNFgIBa4FoS/3CPJri7F+Td8xe7sLjsIXFDeJv0RSOSvM/Z28YD8DZv6pi/Z4fTXT0sxxoHdVb3yG1z0QfyHJGaRTyqZB0etJfKPAEMrSBMiuETzw39J8krh/iqOakaiTTnq0klUnUuxIAAGryP6jbpRJWxHlEjqr07dvQWRrt2mVFTp8lT5x7/wKR9nXSmfSup5ZjP+yZZcUTXDw1MMfu8ud4lPa6PeAcAKPjs5dZf3aObQ==",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1769846635.946569,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_Rwho",
+      "value": "u=d&ts=2026-01-31",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_clck",
+      "value": "jksgb1%5E2%5Eg36%5E0%5E2222",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1801375451,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "MR",
+      "value": "0",
+      "domain": ".c.bing.com",
+      "path": "/",
+      "expires": 1770444254.138607,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SRM_B",
+      "value": "31649E0B86CC6E9C364088F987DE6F7D",
+      "domain": ".c.bing.com",
+      "path": "/",
+      "expires": 1803535889.867687,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_SS",
+      "value": "SID=229512893F666E251DF0047B3E746F6F&R=0&RB=0&GB=0&RG=200&RP=0&fldcp=1",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__Host-XY",
+      "value": "CfDJ8HAK7eZCYw5BifHFeUHnkJHlNkI6sd1Qtb194ywiXv1KlKZzZMlPiefgQwwmp2XC4m8hAKB39IYgfuB5vV0RUToChjdWJtZzt6IXkWp0Q5lBGM56b5aDU38Yc6VIn3WMj2NN166MGILdorHYfIG07QoqkiO36nvvmtjYbja40Rqm7wZCBPTb7PxmphywjD8KByrEmm3x15ZlDI7FdVUTaMO0PDkYyYRQD168e1yOfz8bV5H8pGHRn4-WgaHrp9TASO6Qupa90ET1Bm7ZnrpSvLQ",
+      "domain": "www.bing.com",
+      "path": "/",
+      "expires": 1771078267.383508,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SRCHHPGUSR",
+      "value": "SRCHLANG=zh-Hans&IG=95293D62235C4E018A423436EF652F9C&HV=1769839446&HVE=CfDJ8HAK7eZCYw5BifHFeUHnkJGZvp_MXjDar1mjAPaJSpxH_ccPRCsMuu3fdzO2QubUOjIGpDB1Al3x4zirYrrwSq-claKFCnuJryP3dL92zU4LbUVblAb5KZFJQP-WQACgeOr8pvjndjaCeTfviSWmNh4om2ua52PpNEb2E5Ii0vVrXvLmC_ctSa_FIB2IWflYAg&PREFCOL=0&BRW=M&BRH=M&CW=1280&CH=720&SCW=1265&SCH=1772&DPR=1.0&UTC=480&B=Q&EXLTT=4&PV=19.0.0&PRVCW=1280&PRVCH=720",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1804399870.712905,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_C_ETH",
+      "value": "1",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_RwBf",
+      "value": "r=0&ilt=5&ihpd=0&ispd=5&rc=0&rb=0&rg=200&pc=0&mtu=0&rbb=0&clo=0&v=5&l=2026-01-30T08:00:00.0000000Z&lft=0001-01-01T00:00:00.0000000&aof=0&ard=0001-01-01T00:00:00.0000000&rwdbt=0&rwflt=0&rwaul2=0&g=&o=2&p=&c=&t=0&s=0001-01-01T00:00:00.0000000+00:00&ts=2026-01-31T06:11:10.0239735+00:00&rwred=0&wls=&wlb=&wle=&ccp=&cpt=&lka=0&lkt=0&aad=0&TH=&cid=0&gb=",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1801375871.263134,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "SRCHUSR",
+      "value": "DOB=20260131&DS=1&POEX=W",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1804399871.263776,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_clsk",
+      "value": "rg1mzv%5E1769839879599%5E4%5E0%5Ei.clarity.ms%2Fcollect",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1769926279,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.bing.com",
+      "localStorage": [
+        {
+          "name": "eventLogQueue_Online",
+          "value": "[]"
+        },
+        {
+          "name": "rewwid",
+          "value": "eyJjbnQiOnsiYmExMCI6MCwidXNkaTQiOiIiLCJ1c2RhZWE0NCI6MCwidXNkYWxpNjQiOjB9fQ=="
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+[2026-01-31 13:33:57] [CAPTCHA] 未检测到验证 (URL: https://www.baidu.com/s?wd=%e4%bb%8a%e6%97%a5%e9%87%91%e4%bb%b7%202026%e5%b9%b41%e6%9c%8831%e6%97%a5)
+[2026-01-31 13:34:00] [CAPTCHA] 未检测到验证 (URL: https://duckduckgo.com/?q=%e4%bb%8a%e6%97%a5%e9%87%91%e4%bb%b7+2026%e5%b9%b41%e6%9c%8831%e6%97%a5&ia=web)
+[2026-01-31 13:34:00] [CAPTCHA] 未检测到验证 (URL: https://www.bing.com/search?q=%e4%bb%8a%e6%97%a5%e9%87%91%e4%bb%b7%202026%e5%b9%b41%e6%9c%8831%e6%97%a5)
+[2026-01-31 14:00:54] [CAPTCHA] 开始检测，URL: https://www.baidu.com/s?wd=%e4%bb%8a%e6%97%a5%e7%99%bd%e9%93%b6%20%e9%bb%84%e9%87%91%202026.1.31%20
+[2026-01-31 14:00:54] [CAPTCHA] body HTML 长度: 1079928
+[2026-01-31 14:00:54] [CAPTCHA] HTML 中发现 .captcha 字符串
+[2026-01-31 14:00:54] [CAPTCHA] 等待 10 秒让页面渲染...
+[2026-01-31 14:00:56] [CAPTCHA] 开始检测，URL: https://www.bing.com/search?q=%e4%bb%8a%e6%97%a5%e7%99%bd%e9%93%b6%20%e9%bb%84%e9%87%91%202026.1.31%20
+[2026-01-31 14:00:56] [CAPTCHA] body HTML 长度: 88871
+[2026-01-31 14:00:56] [CAPTCHA] 等待 10 秒让页面渲染...
+[2026-01-31 14:00:57] [CAPTCHA] 开始检测，URL: https://duckduckgo.com/?q=%e4%bb%8a%e6%97%a5%e7%99%bd%e9%93%b6+%e9%bb%84%e9%87%91+2026.1.31+&ia=web
+[2026-01-31 14:00:58] [CAPTCHA] body HTML 长度: 119400
+[2026-01-31 14:00:58] [CAPTCHA] 等待 10 秒让页面渲染...
+[2026-01-31 14:01:04] [CAPTCHA] 开始 DOM 元素检测...
+[2026-01-31 14:01:04] [CAPTCHA] .captcha 元素数: 0
+[2026-01-31 14:01:04] [CAPTCHA] .captcha_header 元素数: 0
+[2026-01-31 14:01:04] [CAPTCHA] .captcha_text 元素数: 0
+[2026-01-31 14:01:04] [CAPTCHA] #turnstile-widget 元素数: 0
+[2026-01-31 14:01:04] [CAPTCHA] body_text length: 3845
+[2026-01-31 14:01:04] [CAPTCHA] 未检测到验证 (URL: https://www.baidu.com/s?wd=%e4%bb%8a%e6%97%a5%e7%99%bd%e9%93%b6%20%e9%bb%84%e9%87%91%202026.1.31%20)
+[2026-01-31 14:01:06] [CAPTCHA] 开始 DOM 元素检测...
+[2026-01-31 14:01:06] [CAPTCHA] .captcha 元素数: 1
+[2026-01-31 14:01:06] [CAPTCHA] 找到 .captcha 容器，判定为验证页面
+[2026-01-31 14:01:06] [CAPTCHA] 开始检测，URL: https://www.bing.com/search?q=%e4%bb%8a%e6%97%a5%e7%99%bd%e9%93%b6%20%e9%bb%84%e9%87%91%202026.1.31%20&rdr=1&rdrig=c6508ef74c7d42e98d8c487c55f40beb
+[2026-01-31 14:01:06] [CAPTCHA] body HTML 长度: 141117
+[2026-01-31 14:01:06] [CAPTCHA] 等待 10 秒让页面渲染...
+[2026-01-31 14:01:08] [CAPTCHA] 开始 DOM 元素检测...
+[2026-01-31 14:01:08] [CAPTCHA] .captcha 元素数: 0
+[2026-01-31 14:01:08] [CAPTCHA] .captcha_header 元素数: 0
+[2026-01-31 14:01:08] [CAPTCHA] .captcha_text 元素数: 0
+[2026-01-31 14:01:08] [CAPTCHA] #turnstile-widget 元素数: 0
+[2026-01-31 14:01:08] [CAPTCHA] body_text length: 3446
+[2026-01-31 14:01:08] [CAPTCHA] 未检测到验证 (URL: https://duckduckgo.com/?q=%e4%bb%8a%e6%97%a5%e7%99%bd%e9%93%b6+%e9%bb%84%e9%87%91+2026.1.31+&ia=web)
+[2026-01-31 14:01:16] [CAPTCHA] 开始 DOM 元素检测...
+[2026-01-31 14:01:16] [CAPTCHA] .captcha 元素数: 1
+[2026-01-31 14:01:16] [CAPTCHA] 找到 .captcha 容器，判定为验证页面
+[2026-01-31 14:01:17] [CAPTCHA] 开始检测，URL: https://www.bing.com/search?q=%e4%bb%8a%e6%97%a5%e7%99%bd%e9%93%b6%20%e9%bb%84%e9%87%91%202026.1.31%20&rdr=1&rdrig=c6508ef74c7d42e98d8c487c55f40beb
+[2026-01-31 14:01:17] [CAPTCHA] body HTML 长度: 141117
+[2026-01-31 14:01:17] [CAPTCHA] 等待 10 秒让页面渲染...
+[2026-01-31 14:01:27] [CAPTCHA] 开始 DOM 元素检测...
+[2026-01-31 14:01:27] [CAPTCHA] .captcha 元素数: 0
+[2026-01-31 14:01:27] [CAPTCHA] .captcha_header 元素数: 0
+[2026-01-31 14:01:27] [CAPTCHA] .captcha_text 元素数: 0
+[2026-01-31 14:01:27] [CAPTCHA] #turnstile-widget 元素数: 0
+[2026-01-31 14:01:27] [CAPTCHA] body_text length: 1874
+[2026-01-31 14:01:27] [CAPTCHA] 未检测到验证 (URL: https://www.bing.com/search?q=%e4%bb%8a%e6%97%a5%e7%99%bd%e9%93%b6%20%e9%bb%84%e9%87%91%202026.1.31%20&rdr=1&rdrig=c6508ef74c7d42e98d8c487c55f40beb)
+[2026-01-31 14:02:18] [CAPTCHA] 开始检测，URL: https://www.baidu.com/s?wd=%e4%bb%8a%e6%97%a5%e7%99%bd%e9%93%b6%20%e9%bb%84%e9%87%91%202026.1.31%20
+[2026-01-31 14:02:18] [CAPTCHA] body HTML 长度: 692934
+[2026-01-31 14:02:18] [CAPTCHA] 等待 15 秒让页面渲染...
+[2026-01-31 14:02:21] [CAPTCHA] 开始检测，URL: https://www.bing.com/search?q=%e4%bb%8a%e6%97%a5%e7%99%bd%e9%93%b6%20%e9%bb%84%e9%87%91%202026.1.31%20
+[2026-01-31 14:02:21] [CAPTCHA] body HTML 长度: 89228
+[2026-01-31 14:02:21] [CAPTCHA] 等待 15 秒让页面渲染...
+[2026-01-31 14:02:22] [CAPTCHA] 开始检测，URL: https://duckduckgo.com/?q=%e4%bb%8a%e6%97%a5%e7%99%bd%e9%93%b6+%e9%bb%84%e9%87%91+2026.1.31+&ia=web
+[2026-01-31 14:02:22] [CAPTCHA] body HTML 长度: 139760
+[2026-01-31 14:02:22] [CAPTCHA] 等待 15 秒让页面渲染...
+[2026-01-31 14:02:33] [CAPTCHA] 开始 DOM 元素检测...
+[2026-01-31 14:02:33] [CAPTCHA] .captcha 元素数: 0
+[2026-01-31 14:02:33] [CAPTCHA] .captcha_header 元素数: 0
+[2026-01-31 14:02:33] [CAPTCHA] .captcha_text 元素数: 0
+[2026-01-31 14:02:33] [CAPTCHA] #turnstile-widget 元素数: 0
+[2026-01-31 14:02:33] [CAPTCHA] body_text length: 3287
+[2026-01-31 14:02:33] [CAPTCHA] 未检测到验证 (URL: https://www.baidu.com/s?wd=%e4%bb%8a%e6%97%a5%e7%99%bd%e9%93%b6%20%e9%bb%84%e9%87%91%202026.1.31%20)
+[2026-01-31 14:02:36] [CAPTCHA] 开始 DOM 元素检测...
+[2026-01-31 14:02:36] [CAPTCHA] .captcha 元素数: 1
+[2026-01-31 14:02:36] [CAPTCHA] 找到 .captcha 容器，判定为验证页面
+[2026-01-31 14:02:36] [CAPTCHA] 开始检测，URL: https://www.bing.com/search?q=%e4%bb%8a%e6%97%a5%e7%99%bd%e9%93%b6%20%e9%bb%84%e9%87%91%202026.1.31%20&rdr=1&rdrig=5191d9583173481ba06586e6c8cbdd3c
+[2026-01-31 14:02:36] [CAPTCHA] body HTML 长度: 142801
+[2026-01-31 14:02:36] [CAPTCHA] 等待 15 秒让页面渲染...
+[2026-01-31 14:02:37] [CAPTCHA] 开始 DOM 元素检测...
+[2026-01-31 14:02:37] [CAPTCHA] .captcha 元素数: 0
+[2026-01-31 14:02:37] [CAPTCHA] .captcha_header 元素数: 0
+[2026-01-31 14:02:37] [CAPTCHA] .captcha_text 元素数: 0
+[2026-01-31 14:02:37] [CAPTCHA] #turnstile-widget 元素数: 0
+[2026-01-31 14:02:37] [CAPTCHA] body_text length: 2684
+[2026-01-31 14:02:37] [CAPTCHA] 未检测到验证 (URL: https://duckduckgo.com/?q=%e4%bb%8a%e6%97%a5%e7%99%bd%e9%93%b6+%e9%bb%84%e9%87%91+2026.1.31+&ia=web)
+[2026-01-31 14:02:51] [CAPTCHA] 开始 DOM 元素检测...
+[2026-01-31 14:02:51] [CAPTCHA] .captcha 元素数: 0
+[2026-01-31 14:02:51] [CAPTCHA] .captcha_header 元素数: 0
+[2026-01-31 14:02:51] [CAPTCHA] .captcha_text 元素数: 0
+[2026-01-31 14:02:51] [CAPTCHA] #turnstile-widget 元素数: 0
+[2026-01-31 14:02:51] [CAPTCHA] body_text length: 1872
+[2026-01-31 14:02:51] [CAPTCHA] 未检测到验证 (URL: https://www.bing.com/search?q=%e4%bb%8a%e6%97%a5%e7%99%bd%e9%93%b6%20%e9%bb%84%e9%87%91%202026.1.31%20&rdr=1&rdrig=5191d9583173481ba06586e6c8cbdd3c)
+[2026-01-31 14:03:56] [CAPTCHA] 开始检测，URL: https://www.baidu.com/s?wd=%e4%bb%8a%e6%97%a5%e9%87%91%e4%bb%b7%202026%e5%b9%b41%e6%9c%8831%e6%97%a5
+[2026-01-31 14:03:56] [CAPTCHA] body HTML 长度: 934780
+[2026-01-31 14:03:56] [CAPTCHA] HTML 中发现 .captcha 字符串
+[2026-01-31 14:03:56] [CAPTCHA] 等待 15 秒让页面渲染...
+[2026-01-31 14:03:58] [CAPTCHA] 开始检测，URL: https://www.bing.com/search?q=%e4%bb%8a%e6%97%a5%e9%87%91%e4%bb%b7%202026%e5%b9%b41%e6%9c%8831%e6%97%a5
+[2026-01-31 14:03:58] [CAPTCHA] body HTML 长度: 90433
+[2026-01-31 14:03:58] [CAPTCHA] 等待 15 秒让页面渲染...
+[2026-01-31 14:03:58] [CAPTCHA] 开始检测，URL: https://duckduckgo.com/?q=%e4%bb%8a%e6%97%a5%e9%87%91%e4%bb%b7+2026%e5%b9%b41%e6%9c%8831%e6%97%a5&ia=web
+[2026-01-31 14:03:58] [CAPTCHA] body HTML 长度: 119737
+[2026-01-31 14:03:58] [CAPTCHA] 等待 15 秒让页面渲染...
+[2026-01-31 14:04:11] [CAPTCHA] 开始 DOM 元素检测...
+[2026-01-31 14:04:11] [CAPTCHA] .captcha 元素数: 0
+[2026-01-31 14:04:11] [CAPTCHA] .captcha_header 元素数: 0
+[2026-01-31 14:04:11] [CAPTCHA] .captcha_text 元素数: 0
+[2026-01-31 14:04:11] [CAPTCHA] #turnstile-widget 元素数: 0
+[2026-01-31 14:04:11] [CAPTCHA] body_text length: 3352
+[2026-01-31 14:04:11] [CAPTCHA] 未检测到验证 (URL: https://www.baidu.com/s?wd=%e4%bb%8a%e6%97%a5%e9%87%91%e4%bb%b7%202026%e5%b9%b41%e6%9c%8831%e6%97%a5)
+[2026-01-31 14:04:13] [CAPTCHA] 开始 DOM 元素检测...
+[2026-01-31 14:04:13] [CAPTCHA] .captcha 元素数: 1
+[2026-01-31 14:04:13] [CAPTCHA] 找到 .captcha 容器，判定为验证页面
+[2026-01-31 14:04:13] [CAPTCHA] 开始检测，URL: https://www.bing.com/search?q=%e4%bb%8a%e6%97%a5%e9%87%91%e4%bb%b7%202026%e5%b9%b41%e6%9c%8831%e6%97%a5&rdr=1&rdrig=e70136658541424bb8873d89043021be
+[2026-01-31 14:04:13] [CAPTCHA] body HTML 长度: 145193
+[2026-01-31 14:04:13] [CAPTCHA] 等待 15 秒让页面渲染...
+[2026-01-31 14:04:13] [CAPTCHA] 开始 DOM 元素检测...
+[2026-01-31 14:04:13] [CAPTCHA] .captcha 元素数: 0
+[2026-01-31 14:04:13] [CAPTCHA] .captcha_header 元素数: 0
+[2026-01-31 14:04:13] [CAPTCHA] .captcha_text 元素数: 0
+[2026-01-31 14:04:13] [CAPTCHA] #turnstile-widget 元素数: 0
+[2026-01-31 14:04:13] [CAPTCHA] body_text length: 2687
+[2026-01-31 14:04:13] [CAPTCHA] 未检测到验证 (URL: https://duckduckgo.com/?q=%e4%bb%8a%e6%97%a5%e9%87%91%e4%bb%b7+2026%e5%b9%b41%e6%9c%8831%e6%97%a5&ia=web)
+[2026-01-31 14:04:28] [CAPTCHA] 开始 DOM 元素检测...
+[2026-01-31 14:04:28] [CAPTCHA] .captcha 元素数: 1
+[2026-01-31 14:04:28] [CAPTCHA] 找到 .captcha 容器，判定为验证页面
+[2026-01-31 14:04:29] [CAPTCHA] 开始检测，URL: https://www.bing.com/search?q=%e4%bb%8a%e6%97%a5%e9%87%91%e4%bb%b7%202026%e5%b9%b41%e6%9c%8831%e6%97%a5&rdr=1&rdrig=e70136658541424bb8873d89043021be
+[2026-01-31 14:04:29] [CAPTCHA] body HTML 长度: 145193
+[2026-01-31 14:04:29] [CAPTCHA] 等待 15 秒让页面渲染...
+[2026-01-31 14:04:44] [CAPTCHA] 开始 DOM 元素检测...
+[2026-01-31 14:04:44] [CAPTCHA] .captcha 元素数: 0
+[2026-01-31 14:04:44] [CAPTCHA] .captcha_header 元素数: 0
+[2026-01-31 14:04:44] [CAPTCHA] .captcha_text 元素数: 0
+[2026-01-31 14:04:44] [CAPTCHA] #turnstile-widget 元素数: 0
+[2026-01-31 14:04:44] [CAPTCHA] body_text length: 1807
+[2026-01-31 14:04:44] [CAPTCHA] 未检测到验证 (URL: https://www.bing.com/search?q=%e4%bb%8a%e6%97%a5%e9%87%91%e4%bb%b7%202026%e5%b9%b41%e6%9c%8831%e6%97%a5&rdr=1&rdrig=e70136658541424bb8873d89043021be)
+[2026-01-31 14:07:16] [CAPTCHA] 开始检测，URL: https://www.baidu.com/s?wd=%e4%bb%8a%e6%97%a5%e7%99%bd%e9%93%b6%e4%bb%b7%e6%a0%bc%202026%e5%b9%b41%e6%9c%8831%e6%97%a5
+[2026-01-31 14:07:17] [CAPTCHA] body HTML 长度: 872851
+[2026-01-31 14:07:17] [CAPTCHA] HTML 中发现 .captcha 字符串
+[2026-01-31 14:07:17] [CAPTCHA] 等待 15 秒让页面渲染...
+[2026-01-31 14:07:18] [CAPTCHA] 开始检测，URL: https://www.bing.com/search?q=%e4%bb%8a%e6%97%a5%e7%99%bd%e9%93%b6%e4%bb%b7%e6%a0%bc%202026%e5%b9%b41%e6%9c%8831%e6%97%a5
+[2026-01-31 14:07:18] [CAPTCHA] body HTML 长度: 92011
+[2026-01-31 14:07:18] [CAPTCHA] 等待 15 秒让页面渲染...
+[2026-01-31 14:09:42] [CAPTCHA] 开始检测，URL: https://www.baidu.com/s?wd=%e5%b0%8f%e7%b1%b3su7%20vs%20%e7%89%b9%e6%96%af%e6%8b%89%20%e6%80%a7%e8%83%bd%e5%af%b9%e6%af%94%202025
+[2026-01-31 14:09:42] [CAPTCHA] body HTML 长度: 732979
+[2026-01-31 14:09:42] [CAPTCHA] 等待 15 秒让页面渲染...
+[2026-01-31 14:09:43] [CAPTCHA] 开始检测，URL: https://www.bing.com/search?q=%e5%b0%8f%e7%b1%b3su7%20vs%20%e7%89%b9%e6%96%af%e6%8b%89%20%e6%80%a7%e8%83%bd%e5%af%b9%e6%af%94%202025
+[2026-01-31 14:09:43] [CAPTCHA] body HTML 长度: 88850
+[2026-01-31 14:09:43] [CAPTCHA] 等待 15 秒让页面渲染...
+[2026-01-31 14:09:46] [CAPTCHA] 开始检测，URL: https://duckduckgo.com/?q=%e5%b0%8f%e7%b1%b3su7+vs+%e7%89%b9%e6%96%af%e6%8b%89+%e6%80%a7%e8%83%bd%e5%af%b9%e6%af%94+2025&ia=web
+[2026-01-31 14:09:47] [CAPTCHA] body HTML 长度: 141489
+[2026-01-31 14:09:47] [CAPTCHA] 等待 15 秒让页面渲染...
+[2026-01-31 14:09:57] [CAPTCHA] 开始 DOM 元素检测...
+[2026-01-31 14:09:57] [CAPTCHA] .captcha 元素数: 0
+[2026-01-31 14:09:57] [CAPTCHA] .captcha_header 元素数: 0
+[2026-01-31 14:09:57] [CAPTCHA] .captcha_text 元素数: 0
+[2026-01-31 14:09:57] [CAPTCHA] #turnstile-widget 元素数: 0
+[2026-01-31 14:09:58] [CAPTCHA] body_text length: 3323
+[2026-01-31 14:09:58] [CAPTCHA] 未检测到验证 (URL: https://www.baidu.com/s?wd=%e5%b0%8f%e7%b1%b3su7%20vs%20%e7%89%b9%e6%96%af%e6%8b%89%20%e6%80%a7%e8%83%bd%e5%af%b9%e6%af%94%202025)
+[2026-01-31 14:09:58] [CAPTCHA] 开始 DOM 元素检测...
+[2026-01-31 14:09:58] [CAPTCHA] .captcha 元素数: 0
+[2026-01-31 14:09:58] [CAPTCHA] .captcha_header 元素数: 0
+[2026-01-31 14:09:58] [CAPTCHA] .captcha_text 元素数: 0
+[2026-01-31 14:09:58] [CAPTCHA] #turnstile-widget 元素数: 0
+[2026-01-31 14:09:58] [CAPTCHA] body_text length: 1842
+[2026-01-31 14:09:58] [CAPTCHA] 未检测到验证 (URL: https://www.bing.com/search?q=%e5%b0%8f%e7%b1%b3su7%20vs%20%e7%89%b9%e6%96%af%e6%8b%89%20%e6%80%a7%e8%83%bd%e5%af%b9%e6%af%94%202025)
+[2026-01-31 14:10:02] [CAPTCHA] 开始 DOM 元素检测...
+[2026-01-31 14:10:02] [CAPTCHA] .captcha 元素数: 0
+[2026-01-31 14:10:02] [CAPTCHA] .captcha_header 元素数: 0
+[2026-01-31 14:10:02] [CAPTCHA] .captcha_text 元素数: 0
+[2026-01-31 14:10:02] [CAPTCHA] #turnstile-widget 元素数: 0
+[2026-01-31 14:10:02] [CAPTCHA] body_text length: 2827
+[2026-01-31 14:10:02] [CAPTCHA] 未检测到验证 (URL: https://duckduckgo.com/?q=%e5%b0%8f%e7%b1%b3su7+vs+%e7%89%b9%e6%96%af%e6%8b%89+%e6%80%a7%e8%83%bd%e5%af%b9%e6%af%94+2025&ia=web)
+[2026-01-31 14:11:06] [CAPTCHA] 开始检测，URL: https://www.baidu.com/s?wd=%e5%b0%8f%e7%b1%b3%e6%b1%bd%e8%bd%a6%20vs%20tesla%20model%203%20%e6%80%a7%e8%83%bd%e5%8f%82%e6%95%b0
+[2026-01-31 14:11:06] [CAPTCHA] body HTML 长度: 655019
+[2026-01-31 14:11:06] [CAPTCHA] 等待 15 秒让页面渲染...
+[2026-01-31 14:11:08] [CAPTCHA] 开始检测，URL: https://www.bing.com/search?q=%e5%b0%8f%e7%b1%b3%e6%b1%bd%e8%bd%a6%20vs%20tesla%20model%203%20%e6%80%a7%e8%83%bd%e5%8f%82%e6%95%b0
+[2026-01-31 14:11:08] [CAPTCHA] body HTML 长度: 88758
+[2026-01-31 14:11:08] [CAPTCHA] 等待 15 秒让页面渲染...
+[2026-01-31 14:11:10] [CAPTCHA] 开始检测，URL: https://duckduckgo.com/?q=%e5%b0%8f%e7%b1%b3%e6%b1%bd%e8%bd%a6+vs+tesla+model+3+%e6%80%a7%e8%83%bd%e5%8f%82%e6%95%b0&ia=web
+[2026-01-31 14:11:10] [CAPTCHA] body HTML 长度: 121951
+[2026-01-31 14:11:10] [CAPTCHA] 等待 15 秒让页面渲染...
+[2026-01-31 14:11:21] [CAPTCHA] 开始 DOM 元素检测...
+[2026-01-31 14:11:21] [CAPTCHA] .captcha 元素数: 0
+[2026-01-31 14:11:21] [CAPTCHA] .captcha_header 元素数: 0
+[2026-01-31 14:11:21] [CAPTCHA] .captcha_text 元素数: 0
+[2026-01-31 14:11:21] [CAPTCHA] #turnstile-widget 元素数: 0
+[2026-01-31 14:11:21] [CAPTCHA] body_text length: 3322
+[2026-01-31 14:11:21] [CAPTCHA] 未检测到验证 (URL: https://www.baidu.com/s?wd=%e5%b0%8f%e7%b1%b3%e6%b1%bd%e8%bd%a6%20vs%20tesla%20model%203%20%e6%80%a7%e8%83%bd%e5%8f%82%e6%95%b0)
+[2026-01-31 14:11:23] [CAPTCHA] 开始 DOM 元素检测...
+[2026-01-31 14:11:23] [CAPTCHA] .captcha 元素数: 0
+[2026-01-31 14:11:23] [CAPTCHA] .captcha_header 元素数: 0
+[2026-01-31 14:11:23] [CAPTCHA] .captcha_text 元素数: 0
+[2026-01-31 14:11:23] [CAPTCHA] #turnstile-widget 元素数: 0
+[2026-01-31 14:11:23] [CAPTCHA] body_text length: 1842
+[2026-01-31 14:11:23] [CAPTCHA] 未检测到验证 (URL: https://www.bing.com/search?q=%e5%b0%8f%e7%b1%b3%e6%b1%bd%e8%bd%a6%20vs%20tesla%20model%203%20%e6%80%a7%e8%83%bd%e5%8f%82%e6%95%b0)
+[2026-01-31 14:11:25] [CAPTCHA] 开始 DOM 元素检测...
+[2026-01-31 14:11:25] [CAPTCHA] .captcha 元素数: 0
+[2026-01-31 14:11:25] [CAPTCHA] .captcha_header 元素数: 0
+[2026-01-31 14:11:25] [CAPTCHA] .captcha_text 元素数: 0
+[2026-01-31 14:11:25] [CAPTCHA] #turnstile-widget 元素数: 0
+[2026-01-31 14:11:25] [CAPTCHA] body_text length: 2787
+[2026-01-31 14:11:25] [CAPTCHA] 未检测到验证 (URL: https://duckduckgo.com/?q=%e5%b0%8f%e7%b1%b3%e6%b1%bd%e8%bd%a6+vs+tesla+model+3+%e6%80%a7%e8%83%bd%e5%8f%82%e6%95%b0&ia=web)
+[2026-01-31 14:12:20] [CAPTCHA] 开始检测，URL: https://www.baidu.com/s?wd=%e5%b0%8f%e7%b1%b3su7%20ultra%20%e5%8a%a0%e9%80%9f%20%e7%bb%ad%e8%88%aa%20%e9%a9%ac%e5%8a%9b%20%e5%8f%82%e6%95%b0
+[2026-01-31 14:12:20] [CAPTCHA] body HTML 长度: 729667
+[2026-01-31 14:12:20] [CAPTCHA] 等待 15 秒让页面渲染...
+[2026-01-31 14:12:23] [CAPTCHA] 开始检测，URL: https://www.bing.com/search?q=%e5%b0%8f%e7%b1%b3su7%20ultra%20%e5%8a%a0%e9%80%9f%20%e7%bb%ad%e8%88%aa%20%e9%a9%ac%e5%8a%9b%20%e5%8f%82%e6%95%b0
+[2026-01-31 14:12:23] [CAPTCHA] body HTML 长度: 88981
+[2026-01-31 14:12:23] [CAPTCHA] 等待 15 秒让页面渲染...
+[2026-01-31 14:12:25] [CAPTCHA] 开始检测，URL: https://duckduckgo.com/?q=%e5%b0%8f%e7%b1%b3su7+ultra+%e5%8a%a0%e9%80%9f+%e7%bb%ad%e8%88%aa+%e9%a9%ac%e5%8a%9b+%e5%8f%82%e6%95%b0&ia=web
+[2026-01-31 14:12:25] [CAPTCHA] body HTML 长度: 124027
+[2026-01-31 14:12:25] [CAPTCHA] 等待 15 秒让页面渲染...
+[2026-01-31 14:12:35] [CAPTCHA] 开始 DOM 元素检测...
+[2026-01-31 14:12:35] [CAPTCHA] .captcha 元素数: 0
+[2026-01-31 14:12:35] [CAPTCHA] .captcha_header 元素数: 0
+[2026-01-31 14:12:35] [CAPTCHA] .captcha_text 元素数: 0
+[2026-01-31 14:12:35] [CAPTCHA] #turnstile-widget 元素数: 0
+[2026-01-31 14:12:35] [CAPTCHA] body_text length: 2739
+[2026-01-31 14:12:35] [CAPTCHA] 未检测到验证 (URL: https://www.baidu.com/s?wd=%e5%b0%8f%e7%b1%b3su7%20ultra%20%e5%8a%a0%e9%80%9f%20%e7%bb%ad%e8%88%aa%20%e9%a9%ac%e5%8a%9b%20%e5%8f%82%e6%95%b0)
+[2026-01-31 14:12:38] [CAPTCHA] 开始 DOM 元素检测...
+[2026-01-31 14:12:39] [CAPTCHA] .captcha 元素数: 0
+[2026-01-31 14:12:39] [CAPTCHA] .captcha_header 元素数: 0
+[2026-01-31 14:12:39] [CAPTCHA] .captcha_text 元素数: 0
+[2026-01-31 14:12:39] [CAPTCHA] #turnstile-widget 元素数: 0
+[2026-01-31 14:12:39] [CAPTCHA] body_text length: 1842
+[2026-01-31 14:12:39] [CAPTCHA] 未检测到验证 (URL: https://www.bing.com/search?q=%e5%b0%8f%e7%b1%b3su7%20ultra%20%e5%8a%a0%e9%80%9f%20%e7%bb%ad%e8%88%aa%20%e9%a9%ac%e5%8a%9b%20%e5%8f%82%e6%95%b0)
+[2026-01-31 14:12:40] [CAPTCHA] 开始 DOM 元素检测...
+[2026-01-31 14:12:40] [CAPTCHA] .captcha 元素数: 0
+[2026-01-31 14:12:40] [CAPTCHA] .captcha_header 元素数: 0
+[2026-01-31 14:12:40] [CAPTCHA] .captcha_text 元素数: 0
+[2026-01-31 14:12:40] [CAPTCHA] #turnstile-widget 元素数: 0
+[2026-01-31 14:12:40] [CAPTCHA] body_text length: 2887
+[2026-01-31 14:12:40] [CAPTCHA] 未检测到验证 (URL: https://duckduckgo.com/?q=%e5%b0%8f%e7%b1%b3su7+ultra+%e5%8a%a0%e9%80%9f+%e7%bb%ad%e8%88%aa+%e9%a9%ac%e5%8a%9b+%e5%8f%82%e6%95%b0&ia=web)

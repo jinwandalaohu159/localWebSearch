@@ -1,0 +1,18 @@
+{
+  "cookies": [],
+  "origins": [
+    {
+      "origin": "https://duckduckgo.com",
+      "localStorage": [
+        {
+          "name": "origin_conversions",
+          "value": "[\"search\"]"
+        },
+        {
+          "name": "serpPopoverPromo",
+          "value": "{\"impressionCount\":3}"
+        }
+      ]
+    }
+  ]
+}
