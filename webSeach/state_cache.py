@@ -17,6 +17,7 @@ class StateCacheManager:
         "bing": ["bing.com", "www.bing.com"],
         "duckduckgo": ["duckduckgo.com", "www.duckduckgo.com"],
         "baidu": ["baidu.com", "www.baidu.com"],
+        "yandex": ["yandex.com", "yandex.ru", "www.yandex.com", "www.yandex.ru"],
     }
 
     def __init__(

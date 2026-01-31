@@ -22,7 +22,7 @@ from config import (
 )
 
 # 固定使用所有搜索引擎
-ALL_ENGINES = ["bing", "duckduckgo", "baidu"]
+ALL_ENGINES = ["duckduckgo", "baidu"]
 
 # 创建 MCP 服务器
 server = Server("webSeach-server")
@@ -31,25 +31,25 @@ server = Server("webSeach-server")
 TOOLS = [
     Tool(
         name="web_search",
-        description="执行网络搜索并抓取页面内容。使用 Bing、DuckDuckGo、百度 3 个搜索引擎，自动过滤高质量结果并去重。",
+        description="执行网络搜索并抓取页面内容。使用搜索引擎，自动过滤高质量结果并去重。",
         inputSchema={
             "type": "object",
             "properties": {
                 "query": {
                     "type": "string",
-                    "description": "搜索查询内容"
+                    "description": "搜索查询内容，尽可能使用核心关键词，关键词最好不超过3个。",
                 },
                 "top_k": {
                     "type": "integer",
-                    "description": "每个引擎结果数（默认: 10）",
-                    "default": 10,
-                    "minimum": 1,
+                    "description": "每个搜索引擎用于初始检索的候选 URL 数量（默认 15）。系统会先从各引擎获取一批结果，再进行去重、质量过滤与页面解析，最终返回与查询最相关的前 top_k 条有效内容。由于页面可解析性与内容质量限制，通常只有约 60% 的候选页面能够成功提取有效正文，因此不建议随意调整该参数。",
+                    "default": 15,
+                    "minimum": 5,
                     "maximum": 20
                 },
                 "format": {
                     "type": "string",
                     "enum": ["json", "md"],
-                    "description": "返回格式（默认: json）",
+                    "description": "返回格式（默认: json），参数可选值有 'json' 和 'md'",
                     "default": "json"
                 }
             },
@@ -84,6 +84,13 @@ async def _web_search(
     """
     执行网络搜索并抓取页面内容
     """
+    # 清空 debug.log
+    log_file = Path(__file__).parent / ".cache" / "debug.log"
+    try:
+        log_file.write_text("", encoding="utf-8")
+    except Exception:
+        pass
+
     engines = ALL_ENGINES.copy()
 
     state_manager = StateCacheManager(ttl_seconds=DEFAULT_STATE_TTL)

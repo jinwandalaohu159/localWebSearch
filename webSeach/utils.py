@@ -37,10 +37,14 @@ async def human_sleep(base_ms: int, jitter_ms: int = 400):
     await asyncio.sleep(max(0, base_ms + delta) / 1000)
 
 
-async def move_browser_window_offscreen(browser):
+async def move_browser_window_offscreen(browser, left: int = -20000, top: int = -20000):
     """
-    把 Chromium 窗口移动到屏幕外（Windows / Linux 可用）
+    把 Chromium 窗口移动到指定位置（Windows / Linux 可用）
     headless=False 时使用
+
+    :param browser: Playwright Browser 对象
+    :param left: 窗口左上角 X 坐标，默认 -20000（屏幕外）
+    :param top: 窗口左上角 Y 坐标，默认 -20000（屏幕外）
     """
     try:
         contexts = browser.contexts
@@ -62,15 +66,16 @@ async def move_browser_window_offscreen(browser):
             {
                 "windowId": window_id,
                 "bounds": {
-                    "left": 0,
-                    "top": 0,
+                    "left": left,
+                    "top": top,
                     "width": 1200,
                     "height": 900,
                 },
             },
         )
+        _log(f"[info] 浏览器窗口已移至 ({left}, {top})")
     except Exception as e:
-        _log("[warn] move window offscreen failed:", e)
+        _log("[warn] move window failed:", e)
 
 
 
@@ -167,8 +172,8 @@ async def is_captcha_page(page) -> bool:
         return True
 
     # 2. DOM element detection with text content check - 等待动态加载
-    _log(f"[CAPTCHA] 等待 15 秒让页面渲染...")
-    await asyncio.sleep(15.0)
+    _log(f"[CAPTCHA] 等待 10 秒让页面渲染...")
+    await asyncio.sleep(10.0)
 
     try:
         # 使用 query_selector_all 直接检查

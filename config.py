@@ -3,11 +3,11 @@ import os
 from typing import List
 
 # 搜索引擎配置
-DEFAULT_ENGINES: List[str] = ["bing", "duckduckgo", "baidu"]
-ALL_ENGINES: List[str] = ["bing", "duckduckgo", "baidu"]
+DEFAULT_ENGINES: List[str] = ["bing", "duckduckgo", "baidu", "yandex"]
+ALL_ENGINES: List[str] = ["bing", "duckduckgo", "baidu", "yandex"]
 
 # 默认参数
-DEFAULT_TOP_K = 10
+DEFAULT_TOP_K = 15
 DEFAULT_CRAWL_CONCURRENCY = 8
 DEFAULT_MAX_CHARS = 5000
 DEFAULT_STATE_TTL = 7200  # 2小时

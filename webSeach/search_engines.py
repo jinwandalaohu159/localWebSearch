@@ -71,6 +71,14 @@ ENGINES: List[Engine] = [
         extra_wait_ms=1200,
         post_goto=baidu_post_goto,
     ),
+    Engine(
+        name="yandex",
+        build_url=lambda q: f"https://yandex.com/search/?text={quote(q)}",
+        result_selector="li.organic h2 a, li.organic a.OrganicTitleLink, h2 a.Link",
+        clean_title=default_clean_title,
+        wait_ms_after_nav=1800,
+        extra_wait_ms=600,
+    ),
 ]
 async def extract_results(page, selector: str, top_k: int) -> List[Tuple[str, str]]:
     results = []
