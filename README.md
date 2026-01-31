@@ -1,4 +1,4 @@
-# webSeach-mcp
+# localWebSearch-mcp
 
 基于 [Model Context Protocol (MCP)](https://modelcontextprotocol.io) 的网络搜索服务器，使用 Playwright 进行浏览器自动化，支持多个搜索引擎并提供页面内容抓取功能。
 
@@ -16,8 +16,8 @@
 ### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/你的用户名/webSeach-mcp.git
-cd webSeach-mcp
+git clone https://github.com/你的用户名/localWebSearch-mcp.git
+cd localWebSearch-mcp
 ```
 
 ### 2. 安装依赖
@@ -34,9 +34,9 @@ playwright install chromium
 
 ## MCP 服务器配置
 
-### Claude Desktop 配置
+### Claude Code 配置
 
-在 Claude Desktop 的配置文件中添加此服务器：
+在 Claude Code 的配置文件中添加此服务器：
 
 **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
 **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
@@ -44,7 +44,7 @@ playwright install chromium
 ```json
 {
   "mcpServers": {
-    "webSeach": {
+    "localWebSearch": {
       "command": "python",
       "args": ["E:/WorkSpace/Projects/Mcp/webSeach-mcp/server.py"],
       "env": {
@@ -85,7 +85,7 @@ playwright install chromium
 ## 项目结构
 
 ```
-webSeach-mcp/
+localWebSearch-mcp/
 ├── server.py              # MCP 服务器入口
 ├── tools.py               # MCP 工具定义
 ├── config.py              # 配置文件
