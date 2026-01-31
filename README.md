@@ -16,8 +16,8 @@
 ### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/你的用户名/localWebSearch-mcp.git
-cd localWebSearch-mcp
+git clone https://github.com/你的用户名/localWebSearch.git
+cd localWebSearch
 ```
 
 ### 2. 安装依赖
@@ -38,15 +38,12 @@ playwright install chromium
 
 在 Claude Code 的配置文件中添加此服务器：
 
-**Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
-**macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
-
 ```json
 {
   "mcpServers": {
     "localWebSearch": {
       "command": "python",
-      "args": ["E:/WorkSpace/Projects/Mcp/webSeach-mcp/server.py"],
+      "args": ["E:/WorkSpace/Projects/Mcp/localWebSearch/server.py"],
       "env": {
         "HEADLESS": "true"
       }
