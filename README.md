@@ -16,7 +16,7 @@
 ### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/你的用户名/localWebSearch.git
+git clone https://github.com/jinwandalaohu159/localWebSearch.git
 cd localWebSearch
 ```
 
@@ -63,9 +63,7 @@ playwright install chromium
 
 ## 使用方法
 
-### 在 Claude 中使用
-
-配置完成后，重启 Claude Desktop 即可使用 `web_search` 工具：
+### 在 Claude Code中使用
 
 ```
 请帮我搜索 "Python 异步编程教程"
